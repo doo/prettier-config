@@ -1,17 +1,13 @@
-# prettier-config
-Shared prettier config for all typescript projects
+# Shared Prettier Configuration for all Typescript projects
 
-Example How to add it your repository (package.json):
+Add it your repository:
 ```
-{
-  "dependencies": {
-    "@doo/prettier-config": "https://github.com/doo/prettier-config.git"
-  }
-}
+npm install github:doo/prettier-config --save-dev
 ```
 
 
-Example how to use this package in your typescript project (.prettierrc.js):
+Example how to use prettier-config in your typescript (.prettierrc.js):
+
 ```
 module.exports = {
   ...require("@doo/prettier-config"),
