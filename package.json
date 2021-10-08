@@ -1,0 +1,16 @@
+{
+  "name": "@doo/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier config all our typescript based projects",
+  "license": "MIT",
+  "main": ".prettierrc.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    ".prettierrc.js"
+  ],
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
